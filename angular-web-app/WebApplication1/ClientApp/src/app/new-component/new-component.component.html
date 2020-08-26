@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <style>
+
+    .container {
+      margin-bottom: 80px;
+    }
+    hr {
+      border-color: #d0d0d0;
+      border-width: 2px;
+    }
+    .row{
+      margin-top:10px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class=" container">
+    <section>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-11 table-responsive">
+          <h2>List of Records</h2>
+          <br>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Lastname</th>
+                <th>Firstname</th>
+                <th>Gender</th>
+                <th>Birthdate</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let child of children">
+                <td>{{ child.id }}</td>
+                <td>{{ child.lastname }}</td>
+                <td>{{ child.firstname }}</td>
+                <td>{{ child.gender }}</td>
+                <td>{{ child.birthdate | date : "dd.MM.y" }}</td>
+                <td><button type="button" (click)="delete(child)">Delete</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-11">
+          <h3>{{ formLabel }}</h3>
+          <hr>
+          <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+            <div class="form-horizontal">
+              <div class="form-group">
+                <label class="control-label col-md-3 col-xs-12 col-sm-1">Lastname:</label>
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                  <input class="form-control" type="text" formControlName="Lastname">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-md-3 col-xs-12 col-sm-1">Firstname:</label>
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                  <input class="form-control" type="text" formControlName="Firstname">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-md-3 col-xs-12 col-sm-1">Gender:</label>
+                <div class="col-md-2 col-xs-12 col-sm-6">
+                  <select class="form-control" formControlName="Gender">
+                    <option value="М">М</option>
+                    <option value="Ж">Ж</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-md-3 col-xs-12 col-sm-1">Birthdate:</label>
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                  <input class="form-control" type="date" formControlName="Birthdate">
+                </div>
+              </div>
+              <br>
+              <div class="form-footer col-md-4 col-xs-12 col-sm-3">
+                <button type="submit" [disabled]="!form.valid">Submit</button>
+                <button type="button" (click)="cancel()">Cancel</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+   </div>
+
+
+      <script>
+        var app = angular.module('myApp', []);
+        app.controller('datCtrl', function ($scope) {
+          $scope.today = new Date();
+        });
+      </script>
+
+</body>
+</html>
