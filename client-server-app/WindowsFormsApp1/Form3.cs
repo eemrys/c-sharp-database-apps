@@ -45,7 +45,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 
@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
                List<Employee> staff = DataContainer.repos.GetByName(name).Result;
                 if (staff.Count == 0)
                 {
-                    MessageBox.Show("No match has been found", "Error");
+                    MessageBox.Show("Не найдено");
                 }
                 else
                 {
@@ -68,7 +68,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 

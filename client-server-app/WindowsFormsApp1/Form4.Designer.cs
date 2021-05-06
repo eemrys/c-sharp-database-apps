@@ -66,165 +66,165 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(35, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 13);
+            this.label2.Size = new System.Drawing.Size(111, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Personal Information";
+            this.label2.Text = "Личная информация";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Gray;
             this.textBox1.Location = new System.Drawing.Point(38, 56);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(155, 20);
+            this.textBox1.Size = new System.Drawing.Size(172, 22);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "LastName";
+            this.textBox1.Text = "Фамилия";
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox2.ForeColor = System.Drawing.Color.Gray;
             this.textBox2.Location = new System.Drawing.Point(38, 82);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(155, 20);
+            this.textBox2.Size = new System.Drawing.Size(172, 22);
             this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "FirstName";
+            this.textBox2.Text = "Имя";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(271, 22);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 13);
+            this.label3.Size = new System.Drawing.Size(133, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Contact Information";
+            this.label3.Text = "Контактная информация";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(478, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 13);
+            this.label4.Size = new System.Drawing.Size(174, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Employment Contract";
+            this.label4.Text = "Профессиональная информация\r\n";
             // 
             // textBox6
             // 
-            this.textBox6.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic);
+            this.textBox6.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox6.ForeColor = System.Drawing.Color.Gray;
             this.textBox6.Location = new System.Drawing.Point(38, 186);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(155, 20);
+            this.textBox6.Size = new System.Drawing.Size(172, 22);
             this.textBox6.TabIndex = 3;
-            this.textBox6.Text = "Passport";
+            this.textBox6.Text = "Паспортные данные";
             // 
             // textBox9
             // 
-            this.textBox9.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox9.ForeColor = System.Drawing.Color.Gray;
             this.textBox9.Location = new System.Drawing.Point(296, 55);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(98, 20);
+            this.textBox9.Size = new System.Drawing.Size(128, 22);
             this.textBox9.TabIndex = 4;
-            this.textBox9.Text = "Cellphone";
+            this.textBox9.Text = "телефон";
             // 
             // textBox10
             // 
-            this.textBox10.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox10.ForeColor = System.Drawing.Color.Gray;
             this.textBox10.Location = new System.Drawing.Point(274, 81);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(121, 20);
+            this.textBox10.Size = new System.Drawing.Size(150, 22);
             this.textBox10.TabIndex = 5;
-            this.textBox10.Text = "Email";
+            this.textBox10.Text = "эл. почта";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(271, 122);
+            this.label5.Location = new System.Drawing.Point(271, 141);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
+            this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 17;
-            this.label5.Text = "Address";
+            this.label5.Text = "Адрес";
             // 
             // textBox11
             // 
-            this.textBox11.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox11.ForeColor = System.Drawing.Color.Gray;
-            this.textBox11.Location = new System.Drawing.Point(272, 154);
+            this.textBox11.Location = new System.Drawing.Point(272, 170);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(122, 20);
+            this.textBox11.Size = new System.Drawing.Size(152, 22);
             this.textBox11.TabIndex = 6;
-            this.textBox11.Text = "City";
+            this.textBox11.Text = "Город";
             // 
             // textBox12
             // 
-            this.textBox12.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox12.ForeColor = System.Drawing.Color.Gray;
-            this.textBox12.Location = new System.Drawing.Point(272, 180);
+            this.textBox12.Location = new System.Drawing.Point(272, 196);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(122, 20);
+            this.textBox12.Size = new System.Drawing.Size(152, 22);
             this.textBox12.TabIndex = 7;
-            this.textBox12.Text = "Street";
+            this.textBox12.Text = "Улица";
             // 
             // textBox13
             // 
-            this.textBox13.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox13.ForeColor = System.Drawing.Color.Gray;
-            this.textBox13.Location = new System.Drawing.Point(272, 206);
+            this.textBox13.Location = new System.Drawing.Point(272, 222);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(122, 20);
+            this.textBox13.Size = new System.Drawing.Size(152, 22);
             this.textBox13.TabIndex = 8;
-            this.textBox13.Text = "Building";
+            this.textBox13.Text = "Дом";
             // 
             // textBox14
             // 
-            this.textBox14.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox14.ForeColor = System.Drawing.Color.Gray;
-            this.textBox14.Location = new System.Drawing.Point(272, 233);
+            this.textBox14.Location = new System.Drawing.Point(272, 249);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(122, 20);
+            this.textBox14.Size = new System.Drawing.Size(152, 22);
             this.textBox14.TabIndex = 9;
-            this.textBox14.Text = "Appartment";
+            this.textBox14.Text = "Квартира";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(478, 169);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 13);
+            this.label6.Size = new System.Drawing.Size(112, 13);
             this.label6.TabIndex = 22;
-            this.label6.Text = "Emergency Contact";
+            this.label6.Text = "Экстренный контакт";
             // 
             // textBox15
             // 
-            this.textBox15.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox15.ForeColor = System.Drawing.Color.Gray;
             this.textBox15.Location = new System.Drawing.Point(481, 194);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(123, 20);
+            this.textBox15.Size = new System.Drawing.Size(163, 22);
             this.textBox15.TabIndex = 10;
-            this.textBox15.Text = "LastName";
+            this.textBox15.Text = "Фамилия";
             // 
             // textBox16
             // 
-            this.textBox16.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox16.ForeColor = System.Drawing.Color.Gray;
             this.textBox16.Location = new System.Drawing.Point(481, 220);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(123, 20);
+            this.textBox16.Size = new System.Drawing.Size(163, 22);
             this.textBox16.TabIndex = 11;
-            this.textBox16.Text = "FirstName";
+            this.textBox16.Text = "Имя";
             // 
             // textBox17
             // 
-            this.textBox17.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.Font = new System.Drawing.Font("Corbel", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.textBox17.ForeColor = System.Drawing.Color.Gray;
             this.textBox17.Location = new System.Drawing.Point(503, 246);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(101, 20);
+            this.textBox17.Size = new System.Drawing.Size(141, 22);
             this.textBox17.TabIndex = 12;
-            this.textBox17.Text = "Cellphone";
+            this.textBox17.Text = "телефон";
             // 
             // button1
             // 
@@ -232,7 +232,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 43);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Add";
+            this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -248,7 +248,7 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(95, 114);
+            this.listBox2.Location = new System.Drawing.Point(72, 114);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(43, 30);
             this.listBox2.TabIndex = 28;
@@ -258,16 +258,16 @@
             this.listBox3.FormattingEnabled = true;
             this.listBox3.Location = new System.Drawing.Point(38, 240);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(155, 30);
+            this.listBox3.Size = new System.Drawing.Size(172, 30);
             this.listBox3.TabIndex = 29;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(707, 108);
+            this.button2.Location = new System.Drawing.Point(679, 108);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(62, 40);
+            this.button2.Size = new System.Drawing.Size(90, 46);
             this.button2.TabIndex = 30;
-            this.button2.Text = "View Details";
+            this.button2.Text = "Подробнее о вакансии";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -276,27 +276,27 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(478, 55);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 13);
+            this.label7.Size = new System.Drawing.Size(59, 13);
             this.label7.TabIndex = 31;
-            this.label7.Text = "Available Jobs:";
+            this.label7.Text = "Вакансии:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(35, 122);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(45, 13);
+            this.label8.Size = new System.Drawing.Size(30, 13);
             this.label8.TabIndex = 32;
-            this.label8.Text = "Gender:";
+            this.label8.Text = "Пол:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(35, 218);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(74, 13);
+            this.label9.Size = new System.Drawing.Size(120, 13);
             this.label9.TabIndex = 33;
-            this.label9.Text = "Marital Status:";
+            this.label9.Text = "Семейное положение:";
             // 
             // label10
             // 
@@ -320,9 +320,9 @@
             // 
             this.dateTimePicker1.CustomFormat = "dd.MM.yyyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(95, 157);
+            this.dateTimePicker1.Location = new System.Drawing.Point(130, 155);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(91, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(80, 20);
             this.dateTimePicker1.TabIndex = 36;
             this.dateTimePicker1.Value = new System.DateTime(2019, 5, 19, 12, 58, 33, 0);
             // 
@@ -330,7 +330,7 @@
             // 
             this.dateTimePicker2.CustomFormat = "dd.MM.yyyy";
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(548, 115);
+            this.dateTimePicker2.Location = new System.Drawing.Point(555, 115);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(89, 20);
             this.dateTimePicker2.TabIndex = 37;
@@ -341,18 +341,18 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(478, 119);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(63, 13);
+            this.label12.Size = new System.Drawing.Size(71, 13);
             this.label12.TabIndex = 38;
-            this.label12.Text = "Hiring Date:";
+            this.label12.Text = "Дата найма:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(35, 161);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(54, 13);
+            this.label14.Size = new System.Drawing.Size(89, 13);
             this.label14.TabIndex = 40;
-            this.label14.Text = "BirthDate:";
+            this.label14.Text = "Дата рождения:";
             // 
             // Form4
             // 
@@ -391,7 +391,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Name = "Form4";
-            this.Text = "New Employee";
+            this.Text = "Новый сотрудник";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

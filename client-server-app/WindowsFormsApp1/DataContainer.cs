@@ -11,6 +11,7 @@ namespace WindowsFormsApp1
     {
 
         public static EmployeeRepository repos = null;
+        public static MongoRepository mongoRepos = null;
         public static Employee currentEmployee = null;
         public static string temlpateName = null;
         public static Font enter_font = new Font("Segoe UI", 8, GraphicsUnit.Point);

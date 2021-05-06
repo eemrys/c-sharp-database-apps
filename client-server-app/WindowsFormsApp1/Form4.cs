@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(DataContainer.JobInfo(index), "Selected Job Information");
+            MessageBox.Show(DataContainer.JobInfo(index), "Информация о должности");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -80,7 +80,7 @@ namespace WindowsFormsApp1
             }
             if (boxEmpty)
             {
-                MessageBox.Show("All fields must be filled.", "Invalid Format Error");
+                MessageBox.Show("Все поля должны быть заполнены.", "Ошибка");
             }
             else
             {
@@ -98,7 +98,7 @@ namespace WindowsFormsApp1
                     EmploymentContract contract = new EmploymentContract
                     {
                         JobTitleID = DataContainer.JobID(listBox1.SelectedIndex),
-                        HiringDate = dateTimePicker1.Value.ToShortDateString()
+                        HiringDate = dateTimePicker2.Value.ToShortDateString()
                     };
                     
                     bool isNumeric = true;
@@ -120,7 +120,7 @@ namespace WindowsFormsApp1
                     {
                         Gender = listBox2.SelectedItem.ToString(),
                         MaritalStatusID = stat.Key,
-                        BirthDate = dateTimePicker2.Value.ToShortDateString(),
+                        BirthDate = dateTimePicker1.Value.ToShortDateString(),
                         LastName = textBox1.Text,
                         FirstName = textBox2.Text,
                         Passport = textBox6.Text
@@ -152,9 +152,9 @@ namespace WindowsFormsApp1
                     int res = DataContainer.repos.AddEmployee(employee).Result;
                     this.Close();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Invalid Format Error", "Error");
+                    MessageBox.Show(ex.Message, "Ошибка");
                 }
             }
         }

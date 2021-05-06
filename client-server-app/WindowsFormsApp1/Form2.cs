@@ -9,7 +9,10 @@ namespace WindowsFormsApp1
         public Form2()
         {
             InitializeComponent();
-            comboBox1.DataSource = new List<string> { "Staff Schedule", "Address Catalog", "Veterans List", "Employees With Several Contracts", "Employees Of Retirement Age", "Termination History", "Parent-Child Relation", "Emergency Contacts" };
+            comboBox1.DataSource = new List<string> { "Штатное расписание",
+                "Каталог адресов", "Сотрудники-ветераны",
+                "Сотрудники на нескольких ставках", "Сотрудники пенсионного возраста",
+                "История увольнений", "Дети сотрудников", "Экстренные контакты" };
             this.FormInit();
         }
 
@@ -37,7 +40,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Permission denied", "Error");
+                MessageBox.Show("Нет прав доступа.", "Ошибка");
             }
         }
 

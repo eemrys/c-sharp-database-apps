@@ -26,13 +26,14 @@ namespace WindowsFormsApp1
             try
             {
                 DataContainer.repos = new EmployeeRepository(login, pass);
+                DataContainer.mongoRepos = new MongoRepository(login, pass);
                 Form2 menu = new Form2();
                 this.Hide();
                 menu.Show();
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.Message, "Error");
+                MessageBox.Show(error.Message, "Ошибка");
             }
         }
 

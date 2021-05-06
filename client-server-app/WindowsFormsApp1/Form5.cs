@@ -226,7 +226,7 @@ namespace WindowsFormsApp1
             }
             else  
             {
-                MessageBox.Show("Permission Denied.", "Error");
+                MessageBox.Show("Нет прав доступа.", "Ошибка");
             }
         }
 
@@ -253,7 +253,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Permission Denied.", "Error");
+                MessageBox.Show("Нет прав доступа.", "Ошибка");
             }
         }
 
@@ -280,7 +280,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Permission Denied.", "Error");
+                MessageBox.Show("Нет прав доступа.", "Ошибка");
             }
         }
 
@@ -308,7 +308,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Permission Denied.", "Error");
+                MessageBox.Show("Нет прав доступа.", "Ошибка");
             }
         }
 
@@ -335,7 +335,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Permission Denied.", "Error");
+                MessageBox.Show("Нет прав доступа.", "Ошибка");
             }
         }
 
@@ -349,7 +349,7 @@ namespace WindowsFormsApp1
             }
             if (boxEmpty)
             {
-                MessageBox.Show("All fields must be filled.", "Invalid Format Error");
+                MessageBox.Show("Все поля должны быть заполнены.", "Ошибка");
             }
             else
             {
@@ -371,7 +371,7 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception error)
                 {
-                    MessageBox.Show(error.Message, "Invalid Format Error");
+                    MessageBox.Show(error.Message, "Ошибка");
                 }
             }
         }
@@ -389,7 +389,7 @@ namespace WindowsFormsApp1
             }
             if (boxEmpty)
             {
-                MessageBox.Show("All fields must be filled.", "Invalid Format Error");
+                MessageBox.Show("Все поля должны быть заполнены.", "Ошибка");
             }
             else
             {
@@ -412,7 +412,7 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception error)
                 {
-                    MessageBox.Show(error.InnerException.Message, "Invalid Format Error");
+                    MessageBox.Show(error.InnerException.Message, "Ошибка");
                 }
             }
         }
@@ -426,7 +426,7 @@ namespace WindowsFormsApp1
             }            
             if (boxEmpty)
             {
-                MessageBox.Show("All fields must be filled.", "Invalid Format Error");
+                MessageBox.Show("Все поля должны быть заполнены.", "Ошибка");
             }
             else
             {
@@ -455,9 +455,9 @@ namespace WindowsFormsApp1
                     ClearPanel(panel2);
                     LoadData();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Invalid Format Error", "Error");
+                    MessageBox.Show(ex.Message, "Ошибка");
                 }
             }
         }
@@ -475,7 +475,7 @@ namespace WindowsFormsApp1
             }
             if (boxEmpty)
             {
-                MessageBox.Show("All fields must be filled.", "Invalid Format Error");
+                MessageBox.Show("Все поля должны быть заполнены.", "Ошибка");
             }
             else
             {
@@ -495,9 +495,9 @@ namespace WindowsFormsApp1
                     ClearPanel(panel1);
                     LoadData();
                 }               
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Invalid Format Error", "Error");
+                    MessageBox.Show(ex.Message, "Ошибка");
                 }
             }           
         }
@@ -508,7 +508,7 @@ namespace WindowsFormsApp1
             if (textBox1.Font.ValueEquals(f_def)) boxEmpty = true;
             if (boxEmpty)
             {
-                MessageBox.Show("All fields must be filled.", "Invalid Format Error");
+                MessageBox.Show("Все поля должны быть заполнены.", "Ошибка");
             }
             else
             {
@@ -534,9 +534,9 @@ namespace WindowsFormsApp1
                     textBox1.Clear();
                     LoadData();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Invalid format error", "Error");
+                    MessageBox.Show(ex.Message, "Ошибка");
                 }
             }
         }
@@ -571,7 +571,7 @@ namespace WindowsFormsApp1
             if (textBox2.Font.ValueEquals(f_def)) boxEmpty = true;
             if (boxEmpty)
             {
-                MessageBox.Show("All fields must be filled.", "Invalid Format Error");
+                MessageBox.Show("Все поля должны быть заполнены.", "Ошибка");
             }
             else
             {
@@ -589,14 +589,14 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception error)
                 {
-                    MessageBox.Show(error.InnerException.Message, "Error");
+                    MessageBox.Show(error.InnerException.Message, "Ошибка");
                 }
             }
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(DataContainer.JobInfo(listBox4.SelectedIndex), "Selected Job Information");
+            MessageBox.Show(DataContainer.JobInfo(listBox4.SelectedIndex), "Информация о должности");
         }
 
         private void listBox4_SelectedIndexChanged(object sender, EventArgs e)
@@ -620,7 +620,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 
@@ -633,7 +633,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 
@@ -648,13 +648,13 @@ namespace WindowsFormsApp1
                 }
                 catch (Exception error)
                 {
-                    MessageBox.Show(error.InnerException.Message, "Employee Successfully Terminated");
+                    MessageBox.Show(error.InnerException.Message, "Сотрудник уволен.");
                     this.Close();
                 }
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 
@@ -667,7 +667,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 
@@ -747,13 +747,13 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
-                    MessageBox.Show("Gender must be either 'М' or 'Ж'.", "Invalid Format Error");
+                    MessageBox.Show("Пол должен быть 'М' или 'Ж'");
                     LoadData();
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Invalid Format Error", "Error");
+                MessageBox.Show(ex.Message, "Ошибка");
                 LoadData();
             }
             button3.Enabled = false;
@@ -832,7 +832,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(DataContainer.ProfInfo(id), "Selected Job Information");
+            MessageBox.Show(DataContainer.ProfInfo(id), "Информация о должности");
         }
 
 
@@ -885,7 +885,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 
@@ -898,7 +898,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.InnerException.Message, "Error");
+                MessageBox.Show(error.InnerException.Message, "Ошибка");
             }
         }
 
@@ -976,6 +976,22 @@ namespace WindowsFormsApp1
                 if (box.Name[7] == '1') button12.Enabled = false;
                 if (box.Name[7] == '2') button14.Enabled = false;
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            Form7 medical = new Form7();
+            medical.Show();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

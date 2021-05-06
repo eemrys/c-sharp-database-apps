@@ -42,9 +42,14 @@ namespace WindowsFormsApp1
             }
             catch (Exception error)
             {
-                MessageBox.Show(error.Message, "Error");
+                MessageBox.Show(error.Message, "Ошибка");
                 this.Close();
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

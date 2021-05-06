@@ -5,6 +5,18 @@ using System.Reflection;
 
 namespace WindowsFormsApp1
 {
+    public class MedicalRecord
+    {
+        public object _id { get; set; }
+        public int person_id { get; set; }
+        public int height { get; set; }
+        public int weight { get; set; }
+        public string blood_type { get; set; }
+        public string eyesight { get; set; }
+        public bool psychoneurological_dispensary { get; set; }
+        public bool drug_dispensary { get; set; }
+    }
+
     public class KeyValue
     {
         public int ID { get; set; }
